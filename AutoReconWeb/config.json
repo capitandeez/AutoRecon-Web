@@ -1,0 +1,24 @@
+{
+  "settings": {
+    "max_threads": 10,
+    "timeout_seconds": 30,
+    "user_agent": "AutoReconWeb/1.0"
+  },
+  "apis": {
+    "virustotal": "YOUR_VIRUSTOTAL_API_KEY",
+    "securitytrails": "YOUR_SECURITYTRAILS_API_KEY",
+    "shodan": "YOUR_SHODAN_API_KEY"
+  },
+  "scan_options": {
+    "subdomain_bruteforce": true,
+    "take_screenshots": true,
+    "deep_crawl": false,
+    "tech_detection": true
+  },
+  "output": {
+    "json_report": true,
+    "html_report": true,
+    "screenshot_dir": "screenshots/"
+  }
+}
+
